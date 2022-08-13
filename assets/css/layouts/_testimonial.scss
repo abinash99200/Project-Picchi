@@ -1,0 +1,66 @@
+/* Testimonial Area CSS */
+.testimonial-area {
+    @include bg;
+    color: #fff;
+    .slick-arrow {
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        transform: translateY(-50%);
+        i {
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+    .slick-prev {
+        left: -70px;
+    }
+    .slick-next {
+        right: -70px;
+    }
+    .testimonial {
+        .slick-slide {
+              margin: 0 15px;
+            .single-testimonial {
+                padding: 40px 20px;
+                border: 1px solid #ddd;
+                i {
+                    font-size: 25px;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border: 1px solid #fff;
+                    line-height: 50px;
+                }
+                p {
+                    margin: 25px 0;
+                }
+                .author-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 50px;
+                    }
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                        line-height: 20px;
+                        margin-left: 20px;
+                        span {
+                            display: block;
+                            font-size: 16px;
+                            font-weight: 400;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

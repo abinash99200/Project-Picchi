@@ -1,0 +1,51 @@
+/* Blog Area CSS */
+.blog-area {
+    .blog {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 30px;
+        .single-blog {
+            .blog-img {
+                img {
+                    width: 100%;
+                }
+                .blog-meta {
+                    background-color: #f2f2f2;
+                    position: relative;
+                    margin: 0 28px;
+                    padding: 12px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: -24px;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    a {
+                        color: #333;
+                        text-transform: lowercase;
+                        i {
+                           font-size: 16px;
+                        }
+                    }
+                }
+                h4 {
+                    font-size: 25px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    margin: 25px 0;
+                }
+                p {
+                    margin: 20px 0;
+                }
+                a {
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    color: #ff7722;
+                    transition: .3s;
+                    &:hover {
+                        color: tomato;
+                    }
+                }
+            }
+        }
+    }
+}

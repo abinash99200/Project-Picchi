@@ -1,0 +1,25 @@
+/* Counter Area CSS */
+.counter-area {
+    @include bg;
+    color: #fff;
+    .counter {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        column-gap: 30px;
+        .single-counter {
+            i {
+                font-size: 25px;
+            }
+            h4 {
+                font-size: 20px;
+                font-weight: 400;
+                span {
+                    display: block;
+                    font-size: 50px;
+                    margin: 20px 0;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

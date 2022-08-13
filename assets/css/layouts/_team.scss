@@ -1,0 +1,46 @@
+/* Team Area CSS */
+.team-area {
+    .team {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 30px;
+        .single-team {
+            height: 350px;
+            background-size: cover;
+            background-position: top;
+            position: relative;
+            overflow: hidden;
+            &:hover {
+                .team-content {
+                    bottom: 0;
+                }
+            }
+            .team-content {
+                position: absolute;
+                left: 0;
+                bottom: -128px;
+                text-align: center;
+                padding: 20px 0;
+                background-color: #333;
+                color: #fff;
+                width: 100%;
+                transition: .3s;
+                h4 {
+                    text-align: center;
+                    font-size: 20px;
+                    span {
+                        display: block;
+                        text-transform: lowercase;
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                    }
+                }
+                a {
+                    color: #fff;
+                    font-size: 16px;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}

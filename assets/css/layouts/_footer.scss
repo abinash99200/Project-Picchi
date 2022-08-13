@@ -1,0 +1,15 @@
+/* Footer Area CSS */
+.footer-area {
+    background-color: #333;
+    color: #fff;
+    .footer {
+        a {
+            color: #fff;
+            margin: 15px 5px;
+        }
+        p {
+            margin: 15px 0;
+            text-transform: capitalize;
+        }
+    }
+}

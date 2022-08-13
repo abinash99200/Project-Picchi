@@ -1,0 +1,14 @@
+/* Partner Area CSS */
+.partner-area {
+    background-color: #ddd;
+    .slick-arrow {
+         display: none !important;
+    }
+    .partner {
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        img {
+            max-width: 150px;
+        }
+    }
+}

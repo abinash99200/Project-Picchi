@@ -1,0 +1,24 @@
+/* Video Area CSS */
+.video-area {
+    @include bg;
+    color: #fff;
+    .video {
+         a {
+            i {
+               font-size: 40px;
+               cursor: pointer;
+               color: #fff;
+            }
+         }
+         h4 {
+            font-size: 45px;
+            font-weight: 700;
+            margin: 20px 0;
+            text-transform: uppercase;
+         }
+         p {
+            max-width: 700px;
+            margin: 0 auto;
+         }
+    }
+}
